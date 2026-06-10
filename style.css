@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú */
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.menu li{
+    border: 2px solid #2d4c9f;
+}
+
+.menu a{
+    display: block;
+    width: 160px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #4d8fd3;
+    font-size: 28px;
+}
+
+/* Contenedor principal */
+.contenedor{
+    width: 800px;
+    margin: 50px auto;
+    background: linear-gradient(to right, #95edf2, #82dce3);
+    border: 10px solid #2d4c9f;
+    border-radius: 40px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Formulario */
+.formulario{
+    width: 500px;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.campo label{
+    width: 120px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f3d8f;
+}
+
+.campo input{
+    width: 350px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+/* Botón */
+.boton button{
+    width: 150px;
+    height: 180px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f3d8f;
+    background-color: white;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.boton button:hover{
+    background-color: #f0f0f0;
+}

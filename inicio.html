@@ -3,47 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examen de Programación</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Menú -->
-    <nav>
-        <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Conócenos</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Registro</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
+<nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="conocenos.html">Conocenos</a>
+    <a href="productos.html">Productos</a>
+    <a href="registro.html">Registro</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
 
-    <!-- Formulario -->
+<main>
     <div class="contenedor">
-        <div class="formulario">
 
-            <div class="campo">
-                <label>Web:</label>
-                <input type="text" value="https://accounts.google.com/SignUp">
+        <div class="campos">
+
+            <div class="fila">
+                <label for="web">Web</label>
+                <input type="text" id="web" placeholder="www.ejemplo.com">
             </div>
 
-            <div class="campo">
-                <label>Nombre:</label>
-                <input type="text" value="Juan">
+            <div class="fila">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Joel">
             </div>
 
-            <div class="campo">
-                <label>Apellido:</label>
-                <input type="text" value="Pablo">
+            <div class="fila">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="valencia">
             </div>
 
         </div>
 
-        <div class="boton">
-            <button>Buscar</button>
-        </div>
+        <button class="btn-buscar">Buscar</button>
+
     </div>
+</main>
 
 </body>
 </html>
